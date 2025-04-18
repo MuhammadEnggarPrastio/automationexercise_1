@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case untuk registrasi</description>
+   <name>TC 01 - Register User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af43ca11-e670-4b3d-bd03-d01976ad4571</testCaseGuid>
+</TestCaseEntity>
