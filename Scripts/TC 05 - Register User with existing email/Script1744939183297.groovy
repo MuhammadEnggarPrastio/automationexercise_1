@@ -48,7 +48,6 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://automationexercise.com/')
 
-// Mendapatkan URL saat ini
 String currentUrl = WebUI.getUrl()
 
 // URL yang diharapkan
@@ -68,49 +67,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signu
 
 WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/button_Signup'))
 
-WebUI.delay(5)
-
-WebUI.verifyTextPresent('ENTER ACCOUNT INFORMATION', false)
-
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Signup/input_Mr_title'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__password'), 'lIdUre64oRo=')
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Automation Exercise - Signup/select_Day123456789101112131415161718192021_40ab5b'), 
-    '2', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Automation Exercise - Signup/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'), 
-    '7', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Automation Exercise - Signup/select_Year20212020201920182017201620152014_f874ed'), 
-    '2000', true)
-
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__first_name'), 'eng')
-
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__last_name'), 'gar')
-
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input_Company_company'), 'testtest')
-
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input_(Street address, P.O. Box, Company na_957d3e'), 
-    'test')
-
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input_Address 2_address2'), 'test')
-
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__state'), 'test')
-
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__city'), 'test')
-
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__zipcode'), 'test')
-
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__mobile_number'), '0832827372')
-
-WebUI.scrollToElement(findTestObject('Page_Automation Exercise - Signup/button_Create Account'), 0)
-
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Signup/button_Create Account'))
-
-WebUI.verifyTextPresent('ACCOUNT CREATED!', false)
-
-WebUI.delay(5)
+WebUI.verifyTextPresent('Email Address already exist!', false)
 
 WebUI.closeBrowser()
 

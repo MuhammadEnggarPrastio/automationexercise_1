@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>contact US</description>
+   <name>TC 06 - Contact US</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e0828cc-5a24-43e1-beba-030768c7f337</testCaseGuid>
+</TestCaseEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Login to your account_email</name>
+   <name>textarea_Get In Touch_message</name>
    <tag></tag>
-   <elementGuidId>76c8bf5d-2ce5-4616-9402-bbe5934e5c2d</elementGuidId>
+   <elementGuidId>8b12be76-7880-4d2b-8a25-cda3e2f5ab95</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;email&quot;]</value>
+         <value>#message</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='email']</value>
+         <value>//textarea[@id='message']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,79 +22,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>3b79412c-b3fe-48fd-8fd8-3ed5a0c6446c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>52bdc64f-859f-4f86-b22d-b0cfa58def1d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-qa</name>
-      <type>Main</type>
-      <value>login-email</value>
-      <webElementGuid>31ff72c0-c286-44c4-842e-50442bd3dc87</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Email Address</value>
-      <webElementGuid>f0d82103-4884-40f6-a351-fe26d6a5af7e</webElementGuid>
+      <value>textarea</value>
+      <webElementGuid>6a991198-cae2-4b57-a478-93ebe55efdad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>6a3a491a-370b-4ceb-b23e-70bc7466f54c</webElementGuid>
+      <value>message</value>
+      <webElementGuid>685b2226-81a9-4ce1-adef-c6ccbddcd36a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-qa</name>
+      <type>Main</type>
+      <value>message</value>
+      <webElementGuid>160c70a3-8baa-4b3e-8cdb-6d723ccf7390</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>message</value>
+      <webElementGuid>9ba315cb-66e5-48fc-9879-30119e4786a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>65392d0d-3cb1-4b34-8464-92eb3e2dfab2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>8</value>
+      <webElementGuid>d31c4bd1-17cc-417a-83f5-c68375ab4355</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Your Message Here</value>
+      <webElementGuid>ebd8d165-10dd-41f1-bb02-b155b5c587b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-sm-offset-1&quot;]/div[@class=&quot;login-form&quot;]/form[1]/input[2]</value>
-      <webElementGuid>790d543f-2aca-4748-b5a4-c62534fac8cf</webElementGuid>
+      <value>id(&quot;message&quot;)</value>
+      <webElementGuid>cba3bde4-b1c2-4627-9cf7-8435d341b48c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='email']</value>
-      <webElementGuid>8df77951-dc35-48c3-b31c-73ce775ece5b</webElementGuid>
+      <value>//textarea[@id='message']</value>
+      <webElementGuid>5fa7baa4-c514-4b15-a8c5-a8f64d5593df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='form']/div/div/div/div/form/input[2]</value>
-      <webElementGuid>5fe73175-a0c7-48bf-b5b6-32e9cca8c6fc</webElementGuid>
+      <value>//form[@id='contact-us-form']/div[4]/textarea</value>
+      <webElementGuid>ef6950c6-8c0d-4927-8e32-0c72c7263982</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[2]</value>
-      <webElementGuid>6395a2e6-12cd-4efb-ad10-028615b797b1</webElementGuid>
+      <value>//textarea</value>
+      <webElementGuid>334fe397-eadb-4e7d-9d47-7ab056ea063c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @placeholder = 'Email Address' and @name = 'email']</value>
-      <webElementGuid>abca3733-b12a-4060-b1c5-e4ca749e6d16</webElementGuid>
+      <value>//textarea[@name = 'message' and @id = 'message' and @placeholder = 'Your Message Here']</value>
+      <webElementGuid>e1820490-bde7-41cb-a232-8bcf23acc00a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>register akun existing</description>
+   <name>TC 05 - Register User with existing email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7457ff5f-9a1f-47a7-9f8b-4f9aa68880f3</testCaseGuid>
+</TestCaseEntity>

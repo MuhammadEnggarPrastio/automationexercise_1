@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Login to your account_email</name>
+   <name>input_Get In Touch_upload_file</name>
    <tag></tag>
-   <elementGuidId>76c8bf5d-2ce5-4616-9402-bbe5934e5c2d</elementGuidId>
+   <elementGuidId>9b8c9fa8-429e-4807-9e47-f4a22e4dba2e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;email&quot;]</value>
+         <value>input[name=&quot;upload_file&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='email']</value>
+         <value>//input[@name='upload_file']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,78 +23,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3b79412c-b3fe-48fd-8fd8-3ed5a0c6446c</webElementGuid>
+      <webElementGuid>4ce95274-8602-45f3-bacf-328bdac8d2ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>52bdc64f-859f-4f86-b22d-b0cfa58def1d</webElementGuid>
+      <value>file</value>
+      <webElementGuid>f016d4a8-ac07-4d47-9353-0e812211b43f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-qa</name>
+      <name>class</name>
       <type>Main</type>
-      <value>login-email</value>
-      <webElementGuid>31ff72c0-c286-44c4-842e-50442bd3dc87</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Email Address</value>
-      <webElementGuid>f0d82103-4884-40f6-a351-fe26d6a5af7e</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>f2d4e40a-f281-43b9-ae6c-be892e4acec3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>6a3a491a-370b-4ceb-b23e-70bc7466f54c</webElementGuid>
+      <value>upload_file</value>
+      <webElementGuid>6130cf95-7d2d-416a-82ff-34b39faa7e39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-sm-offset-1&quot;]/div[@class=&quot;login-form&quot;]/form[1]/input[2]</value>
-      <webElementGuid>790d543f-2aca-4748-b5a4-c62534fac8cf</webElementGuid>
+      <value>id(&quot;contact-us-form&quot;)/div[@class=&quot;form-group col-md-12&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>06a171bc-2236-4e81-a8bf-fbee31b88456</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='email']</value>
-      <webElementGuid>8df77951-dc35-48c3-b31c-73ce775ece5b</webElementGuid>
+      <value>//input[@name='upload_file']</value>
+      <webElementGuid>ca3092ad-4d27-4229-a0b3-3fff9cb3e17b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='form']/div/div/div/div/form/input[2]</value>
-      <webElementGuid>5fe73175-a0c7-48bf-b5b6-32e9cca8c6fc</webElementGuid>
+      <value>//form[@id='contact-us-form']/div[5]/input</value>
+      <webElementGuid>72013948-7fe4-430d-aa52-515ba4d5f85d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[2]</value>
-      <webElementGuid>6395a2e6-12cd-4efb-ad10-028615b797b1</webElementGuid>
+      <value>//div[5]/input</value>
+      <webElementGuid>2f178513-2236-401c-9b55-09dde19157e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @placeholder = 'Email Address' and @name = 'email']</value>
-      <webElementGuid>abca3733-b12a-4060-b1c5-e4ca749e6d16</webElementGuid>
+      <value>//input[@type = 'file' and @name = 'upload_file']</value>
+      <webElementGuid>b8f48a40-1bc0-47e6-bcb4-6a4838281401</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
